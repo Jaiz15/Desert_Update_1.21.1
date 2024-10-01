@@ -1,0 +1,58 @@
+{
+	"schemaVersion": 1,
+	"id": "desertupdate",
+	"version": "${version}",
+	"name": "DunesDrought",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Jaiz",
+		"Bonus Builders:",
+		"- Quark",
+		"- Emchmu",
+		"- Spprinkles",
+		"- Bh",
+		"- Heulandite",
+		"Music Disc Makers:",
+		"- Cassandra Byk",
+		"- Gabe",
+		"- Marisa N",
+		"- Sewer_Rat (Screamed Alot)",
+		"- Julessss (Moo'd Alot)",
+		"- Green (Was Green!!)",
+		"- Spinky.gov (Painting Collaborator)",
+		"- SixFootBlue",
+		"StefanJ2",
+		"OatsCorn"
+
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/desertupdate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jaiz.desertupdate.DunesDrought"
+		],
+		"client": [
+			"jaiz.desertupdate.DunesDroughtClient"
+		],
+		"fabric-datagen": [
+			"jaiz.desertupdate.DunesDroughtDataGenerator"
+		]
+	},
+	"mixins": [
+		"desertupdate.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

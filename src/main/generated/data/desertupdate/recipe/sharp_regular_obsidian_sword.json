@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "desertupdate:obsidian_shard"
+    },
+    "R": {
+      "item": "desertupdate:sharp_obsidian_shard"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "R",
+    "C",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "desertupdate:sharp_regular_obsidian_sword"
+  }
+}
